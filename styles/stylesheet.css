@@ -6,7 +6,11 @@ header {
     padding-left: 10rem;
     margin: -0.5rem -0.5rem 0;
 }
+header > h1 {
+    font-size: 4rem;
+}
 #header-text {
+    font-size: 2rem;
     font-style: italic;
     margin-top: -1rem;
 }
@@ -19,9 +23,11 @@ nav {
 }
 a.nav {
     text-decoration: none;
-    color: inherit;
-    font-size: 0.7rem;
+    color: rgb(43, 45, 47);
+    font-size: 1rem;
     font-weight: bold;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
 }
 section{
     font-family: sans-serif;
@@ -29,6 +35,7 @@ section{
 section.main {
     padding-top: 2rem;
     padding-left: 9.5rem;
+    width: 45%;
 }
 #top-header {
     color: rgb(0, 155, 187)
@@ -37,10 +44,59 @@ section.main {
     color:rgb(0, 155, 187);
     font-weight: normal;
 }
+#bottom {
+    color:rgb(43, 45, 47);
+}
 .main-section-text {
+    color:rgb(43, 45, 47);
     font-size: smaller;
 }
 .blue {
     background: none;
     color:rgb(0, 155, 187)
+}
+.aside-header {
+    color:rgb(43, 45, 47);
+}
+.aside-text {
+    color:rgb(43, 45, 47);
+    font-size: smaller;
+}
+.aside-link {
+    color:rgb(0, 155, 187);
+    font-size: smaller;
+    text-decoration: none;
+}
+section.main {
+    float: left;
+}
+aside {
+    float: right;
+    padding-top: 2rem;
+    margin-top: -19rem;
+    width: 35%;
+}
+figure {
+    margin-left: -0.5%;
+}
+figcaption {
+    margin-top: 0.5rem;
+    width: 60%;
+}
+footer {
+    clear: right;
+    background-color: rgb(43, 45, 47);
+    color:rgb(254, 254, 254);
+    font-family: sans-serif;
+    font-size: smaller;
+    text-align: center;
+    padding: 2rem;
+    margin-top: 45rem;
+}
+a.footer {
+    text-decoration: none;
+    color:rgb(254, 254, 254);
+    font-weight: bold;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
 }
