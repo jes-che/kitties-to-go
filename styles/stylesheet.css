@@ -33,18 +33,21 @@ section{
     font-family: sans-serif;
 }
 section.main {
+    float: left;
+}
+section.main {
     padding-top: 2rem;
-    padding-left: 9.5rem;
+    padding-left: 10rem;
     width: 45%;
 }
-#top-header {
+#main-top {
     color: rgb(0, 155, 187)
 }
-#middle {
+#main-middle {
     color:rgb(0, 155, 187);
     font-weight: normal;
 }
-#bottom {
+#main-bottom {
     color:rgb(43, 45, 47);
 }
 .main-section-text {
@@ -66,9 +69,6 @@ section.main {
     color:rgb(0, 155, 187);
     font-size: smaller;
     text-decoration: none;
-}
-section.main {
-    float: left;
 }
 aside {
     float: right;
@@ -99,4 +99,12 @@ a.footer {
     font-weight: bold;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
+}
+#footer-top {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+#footer-bottom {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
