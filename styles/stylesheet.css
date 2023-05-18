@@ -21,7 +21,7 @@ nav {
     padding-left: 10rem;
     margin: -0.5rem -0.5rem 0;
 }
-a.nav {
+a.navigation {
     text-decoration: none;
     color: rgb(43, 45, 47);
     font-size: 1rem;
@@ -32,25 +32,25 @@ a.nav {
 section{
     font-family: sans-serif;
 }
-section.main {
+section.index-main {
     float: left;
 }
-section.main {
+section.index-main {
     padding-top: 2rem;
     padding-left: 10rem;
     width: 45%;
 }
-#main-top {
+#index-main-first {
     color: rgb(0, 155, 187)
 }
-#main-middle {
+#index-main-second {
     color:rgb(0, 155, 187);
     font-weight: normal;
 }
-#main-bottom {
+#index-main-third {
     color:rgb(43, 45, 47);
 }
-.main-section-text {
+.index-main-paragraph {
     color:rgb(43, 45, 47);
     font-size: smaller;
 }
@@ -83,7 +83,7 @@ figcaption {
     margin-top: 0.5rem;
     width: 60%;
 }
-footer {
+footer.index {
     clear: right;
     background-color: rgb(43, 45, 47);
     color:rgb(254, 254, 254);
@@ -91,7 +91,7 @@ footer {
     font-size: smaller;
     text-align: center;
     padding: 2rem;
-    margin-top: 45rem;
+    margin: 45rem -0.5rem -1rem;
 }
 a.footer {
     text-decoration: none;
@@ -107,4 +107,24 @@ a.footer {
 #footer-bottom {
     padding-top: 1rem;
     padding-bottom: 1rem;
+}
+section.about-main{
+    color:rgb(43, 45, 47);
+    padding-top: 2rem;
+    padding-left: 10rem;
+    width: 75%; 
+}
+a[href="index.html"] {
+    text-decoration: none;
+    color: rgb(0, 155, 187);
+    font-weight: bold;
+}
+footer.about {
+    background-color: rgb(43, 45, 47);
+    color:rgb(254, 254, 254);
+    font-family: sans-serif;
+    font-size: smaller;
+    text-align: center;
+    padding: 2rem;
+    margin: 1rem -0.5rem -1rem;
 }
